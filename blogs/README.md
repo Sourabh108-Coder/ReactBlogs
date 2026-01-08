@@ -1,98 +1,70 @@
-## Blog Application (React)
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**Overview**
-*This is a fully responsive React-based Blog Application that fetches blog data from an external API and displays it with a clean, user-friendly interface. The application supports pagination, hashtag-based filtering, and smooth navigation between blog lists while preserving the user’s browsing state.*
+## Available Scripts
 
+In the project directory, you can run:
 
-**Features**
-   1. Blog Listing
-       - Displays blogs fetched from an API
-       - Each blog includes:
-         - Blog heading/title
-         - Author name
-         - Blog type/category
-         - Publishing date
-         - Associated hashtags
+### `npm start`
 
-   2. Pagination
-       - Proper pagination with:
-         - Next and Previous navigation buttons
-         - Page indicator (for example: Page 1 of 6)
-       - Pagination updates dynamically based on available blog data
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-   3. Hashtag-Based Filtering
-       - Clicking on any hashtag opens blogs related to that hashtag
-       - Filtered results have their own pagination
-         - Example: If a hashtag has only two pages, pagination shows Page 1 of 2
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-   4. Navigation State Management
-      - Includes a Back button when viewing hashtag-filtered blogs
-      - Returns the user to the exact page they were previously on
-        - Example: If the user was on Page 4 out of 6 before clicking a hashtag, they are returned to Page 4 when navigating back
+### `npm test`
 
-   5. Responsive Design
-     - Fully responsive layout
-     - Optimized for:
-       - Desktop
-       - Tablet
-       - Mobile devices
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**User Experience Highlights**
-   - Smooth transitions between pages
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   - No loss of pagination state during navigation
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   - Clean and readable blog layout
+### `npm run eject`
 
-   - Intuitive hashtag exploration
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-**Screenshots**
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Screen 1
-[!Screen 1](screenshots\Screen1.png)
+## Learn More
 
-## Screen 2
-[!Screen 2](screenshots\Screen2.png)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Screen 3
-[!Screen 3](screenshots\Screen3.png)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-**Technology Stack**
-   - React
+### Analyzing the Bundle Size
 
-   - JavaScript
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-   - Blog API for blog data
+### Making a Progressive Web App
 
-   - Responsive CSS (Flexbox/Grid)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-**Project Structure**
-   - Modular and reusable React components
-   - Separation of concerns for:
-      - Blog list
-      - Pagination
-      - Hashtag filtering
-      - Navigation handling
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-**Use Case**
-This project is ideal for:
-   - Blog platforms
-   - Content-heavy websites
-   - Learning advanced pagination and state handling in React
-   - Demonstrating real-world React application architecture
-
-
-
-**Author**
-   *- Sourabh (https://github.com/Sourabh108-Coder)*
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
