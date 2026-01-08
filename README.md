@@ -54,13 +54,13 @@
 **Screenshots**
 
 ## Screen 1
-[!Screen 1](blogs/screenshots/Screen1.png)
+![Screen 1](blogs/screenshots/Screen1.png)
 
 ## Screen 2
-[!Screen 2](blogs/screenshots/Screen2.png)
+![Screen 2](blogs/screenshots/Screen2.png)
 
 ## Screen 3
-[!Screen 3](blogs/screenshots/Screen3.png)
+![Screen 3](blogs/screenshots/Screen3.png)
 
 
 
